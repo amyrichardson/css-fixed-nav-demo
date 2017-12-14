@@ -1,0 +1,75 @@
+html, body {
+  margin: 0;
+  padding: 0;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+header {
+  background-color: rgb(210, 210, 212);
+  margin-top: 50px;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48pt;
+  text-align: center;
+}
+
+/*
+Work for the fixed navigation bar (demo below):
+1. position: fixed;
+2. top: 0;
+3. width: 100%;
+4. height: 50px;
+5. adjust the margin-top for the following content to 50px to avoid overlap
+*/
+nav {
+  background-color: rgb(77, 59, 89);
+  color: white;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline;
+  font-size: 16pt;
+}
+
+nav a {
+  margin-right: 10px;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+
+}
+
+p {
+  margin: 20px;
+}
+
+img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+#container {
+  margin: 0 auto;
+}
+
+#mainContent {
+  max-width: 980px;
+  margin: 0 auto;
+}
